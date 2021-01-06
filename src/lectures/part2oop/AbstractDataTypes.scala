@@ -19,6 +19,8 @@ object AbstractDataTypes extends App {
     val preferredMeal: String = "fresh meat"
   }
 
+
+
   trait ColdBlooded
   class Crocodile extends Animal with Carnivore with ColdBlooded {
     override val creatureType: String = "croc"
